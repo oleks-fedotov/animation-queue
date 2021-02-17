@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  position: absolute;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 25px;
+  position: absolute;
+  top: 160px;
+}
+
+.rectangle {
+  height: 50px;
+  width: 150px;
+  background-color: lightblue;
+  position: absolute;
+  top: 250px;
+}
