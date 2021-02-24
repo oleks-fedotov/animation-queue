@@ -61,6 +61,7 @@ animationQueue.push(() => {
 });
 
 // start the queue to process the movements
+// timeout is needed only for presentation purpose, in real world scenario will be removed
 setTimeout(() => {
   animationQueue.start();
 }, 5000);
